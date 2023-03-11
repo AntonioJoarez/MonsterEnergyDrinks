@@ -11,7 +11,7 @@ body {
     letter-spacing: 20px;
 }
 #header h1:hover {
-    color: white;
+    letter-spacing: 30px;
     transition: 1s;
 
 }
