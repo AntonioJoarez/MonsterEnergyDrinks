@@ -55,9 +55,9 @@ div#content {
 
 div#image {
     margin-top: 60px;
-    float: right;  
+    float: left; 
     padding: 50px;
-    margin-right: 10%;
+    margin-left: 10%;
 }
 div#image img {
     width: 250px;
@@ -70,7 +70,7 @@ div#image img:hover {
 }
 
 button {
-    background: linear-gradient( rgb(35, 181, 45),  rgb(11, 91, 16));
+    background: linear-gradient( rgb(35, 181, 45),  rgb(4, 81, 9));
     border: 1px solid white;
     color: white;
     text-transform: uppercase;
@@ -86,6 +86,7 @@ button:hover {
     letter-spacing: 15px;
 }
 p {
+    text-align: center;
     font-size: 1.3em;
     letter-spacing: 1px;
 }

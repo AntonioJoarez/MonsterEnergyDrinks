@@ -55,10 +55,10 @@ div#content {
 }
 
 div#image {
-    margin-top: 60px;
-    float: right;  
+    margin-top: 60px;  
+    float: left;
+    margin-left: 10%;
     padding: 50px;
-    margin-right: 10%;
 }
 div#image img {
     width: 250px;
@@ -87,6 +87,7 @@ button:hover {
     letter-spacing: 15px;
 }
 p {
+    text-align: center;
     font-size: 1.3em;
     letter-spacing: 1px;
 }
