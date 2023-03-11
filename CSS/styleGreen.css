@@ -34,10 +34,10 @@ body {
     color: white;
 }
 .title {
-    color:  rgb(148, 79, 204);
+    color:  rgb(35, 181, 45);
 }
 .titleEnergy {
-    color: rgb(143, 51, 218);
+    color:  rgb(35, 181, 45);
     font-size: 1.9em;
     letter-spacing: 2px;
     text-align: center;
@@ -61,16 +61,16 @@ div#image {
 }
 div#image img {
     width: 250px;
-    filter: drop-shadow(0px 5px 5px rgb(143, 51, 218));
+    filter: drop-shadow(0px 5px 5px rgb(35, 181, 45));
     transition: 1s;
 }
 div#image img:hover {
     width: 250px;
-    filter: drop-shadow(0px 25px 25px rgb(143, 51, 218));
+    filter: drop-shadow(0px 25px 25px rgb(35, 181, 45));
 }
 
 button {
-    background: linear-gradient(rgb(148, 79, 204), rgb(94, 21, 154));
+    background: linear-gradient( rgb(35, 181, 45),  rgb(11, 91, 16));
     border: 1px solid white;
     color: white;
     text-transform: uppercase;
@@ -89,12 +89,10 @@ p {
     font-size: 1.3em;
     letter-spacing: 1px;
 }
-span {
-    color: white;
-}
 a {
     float: left;
     display: block;
+    color:  rgb(35, 181, 45);
 }
 
 
