@@ -32,12 +32,13 @@ body {
 }
 #header .next:hover {
     color: white;
+    text-decoration: line-through;
 }
 .title {
-    color:  rgb(35, 181, 45);
+    color:  rgb(70, 142, 224);
 }
 .titleEnergy {
-    color:  rgb(35, 181, 45);
+    color:   rgb(70, 142, 224);
     font-size: 1.9em;
     letter-spacing: 2px;
     text-align: center;
@@ -61,16 +62,16 @@ div#image {
 }
 div#image img {
     width: 250px;
-    filter: drop-shadow(0px 5px 5px rgb(35, 181, 45));
+    filter: drop-shadow(0px 5px 5px  rgb(70, 142, 224));
     transition: 1s;
 }
 div#image img:hover {
     width: 250px;
-    filter: drop-shadow(0px 25px 25px rgb(35, 181, 45));
+    filter: drop-shadow(0px 25px 25px  rgb(70, 142, 224));
 }
 
 button {
-    background: linear-gradient( rgb(35, 181, 45),  rgb(4, 81, 9));
+    background: linear-gradient(  rgb(70, 142, 224),  rgb(11, 69, 136));
     border: 1px solid white;
     color: white;
     text-transform: uppercase;
@@ -93,7 +94,7 @@ p {
 a {
     float: left;
     display: block;
-    color:  rgb(35, 181, 45);
+    color:   rgb(70, 142, 224);
 }
 @media only screen and (min-width: 400px) and (max-width: 600px) {
     #header {
